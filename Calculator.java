@@ -3,7 +3,6 @@ public class Calculator {
     private final float secondNumber;
     private final double  pi;
     private final float radius;
-    private float Nnumber;
 
     Calculator(int firstNumber,int secondNumber,int radius){
     this.firstNumber=firstNumber;
@@ -17,7 +16,7 @@ public class Calculator {
     }
 
     public float addingNNumbers(int nnumber){
-       return  this.Nnumber=nnumber;
+        return nnumber;
     }
 
     public  float subtractingTwoNumbers(){
